@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||HAPPY|BIRTHDAY|ANUSHA|❤|#rectangle|May God Bless|YOU');
+      S.UI.simulate('|#countdown 3||HAPPY|BIRTHDAY|ANUSHA|❤|#rectangle|May God Bless|YOU|,|Have strength and carry yourself through hardships ');
     }
 
     S.Drawing.loop(function () {
